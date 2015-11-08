@@ -2,7 +2,7 @@ package io.github.turbo87.assertjtest;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * To work on unit tests, switch the Test Artifact in the Build Variants view.
@@ -10,6 +10,6 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+        assertThat(2 + 2).isEqualTo(4);
     }
 }
