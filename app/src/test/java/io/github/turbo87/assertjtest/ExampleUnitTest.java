@@ -2,7 +2,7 @@ package io.github.turbo87.assertjtest;
 
 import org.junit.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Java6Assertions.assertThat;
 
 /**
  * To work on unit tests, switch the Test Artifact in the Build Variants view.
